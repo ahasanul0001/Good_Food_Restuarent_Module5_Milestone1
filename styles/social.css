@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Work Sans", sans-serif; */
+
+.social{
+    width: 1920px;
+    height: 671px;
+    background-image: url("../assets/social-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
+
+.social .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social .content .title{
+    width: 805px;
+    height: 181px;
+    text-align: center;
+    margin-top: 136px;
+}
+.social .content .title #title{
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.social .content .title #subtitle{
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 24px;
+}
+
+.social .content .follow{
+    width: 1320px;
+    height: 99px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.social .content #text{
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.social .content .icon{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+.social .content .icon img{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Work Sans", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* cards design */
+.cards .card{
+    width: 424px;
+    height: 525px;
+}
+
+.cards .card .food-image{
+    width: 424px;
+    height: 283px;
+    border-radius: 16px;
+}
+
+.cards .card .cardContent{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .card .cardContent .shopname{
+    width: 187px;
+    height: 57px;
+
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.cards .card .cardContent .shopname #shop{
+    color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.cards .card .cardContent .offer{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+
+.cards .card .cardContent .offerDescription{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 24px;
+}
+
+/* cardBox Container */
+
+.cardBox{
+    /* Card Box */
+position: relative;
+width: 1920px;
+height: 1222px;
+display: flex;
+justify-content: center;
+}
+
+.cardBox .cardBoxContainer{
+    width: 1320px;
+    height: 876px;
+    margin-top: 167px;
+    margin-bottom: 179px;
+}
+
+/* card container */
+
+.cardBox .cardBoxContainer .cards{
+    width: 424px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+/* title */
+.cardBox .cardBoxContainer .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin: 48px 0px 16px;
+}
+
+.cardBox .cardBoxContainer .titleContainer{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardBox .cardBoxContainer .titleContainer .title{
+    width: 691px;
+    height: 128px;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 48px;
+}
+
+/* button */
+.cardBox .btnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.cardBox .btnContainer .btn{
+    width: 207px; 
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border-style: none;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.cardBox .btnContainer .btn:hover{
+    background-image: linear-gradient(45deg, red, tomato);
+    cursor: pointer;
+}
